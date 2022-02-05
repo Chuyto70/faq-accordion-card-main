@@ -120,10 +120,15 @@ summary {
     cursor: pointer;
 }
 
+summary:hover {
+    color: var(--soft-red);
+}
+
 summary img {
     position: absolute;
     right: 0;
     top: calc(50% - 3px);
+    transition: transform .4s;
 }
 
 details[open] summary {
